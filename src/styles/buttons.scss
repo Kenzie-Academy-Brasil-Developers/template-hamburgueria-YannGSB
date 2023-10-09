@@ -1,0 +1,19 @@
+.btn-primary {
+  display: inline-flex;
+  width: 90px;
+  height: 40px;
+  padding: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  background-color: var(--grey-200);
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary);
+}

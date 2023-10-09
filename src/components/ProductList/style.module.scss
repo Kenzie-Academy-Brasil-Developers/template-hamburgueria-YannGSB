@@ -1,0 +1,22 @@
+.productListContainer {
+  display: flex;
+  gap: 1.25rem;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: auto;
+  margin-left: 1rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.productListContainer::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .productListContainer {
+    gap: 3.5rem;
+    flex-wrap: wrap;
+    height: 49.6875rem;
+  }
+}
