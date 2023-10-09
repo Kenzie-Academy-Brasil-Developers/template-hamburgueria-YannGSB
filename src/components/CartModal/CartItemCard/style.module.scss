@@ -1,0 +1,32 @@
+.itemContainer {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  width: 360px;
+
+  position: relative;
+}
+
+.imgBackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 82.2592px;
+  height: 80px;
+  background-color: var(--grey-100);
+  border-radius: 5px;
+
+  img {
+    width: 55px;
+    height: 53.49px;
+  }
+}
+
+.productInfoContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100px;
+    gap: 10px;
+}

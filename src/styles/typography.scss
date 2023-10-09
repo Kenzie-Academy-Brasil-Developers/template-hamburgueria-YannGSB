@@ -1,0 +1,75 @@
+.title {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  color: var(--grey-600);
+
+  &.one {
+    font-size: 1.625rem;
+  }
+
+  &.two {
+    font-size: 1.375rem;
+  }
+
+  &.three {
+    font-size: 1.125rem;
+  }
+}
+
+.headline {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.headline600 {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.body {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.body600 {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.caption {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.primary {
+  color: var(--color-primary);
+}
+
+.grey600 {
+  color: var(--grey-600);
+}
+
+.grey300 {
+  color: var(--grey-300);
+}
+
+.grey200 {
+  color: var(--grey-200);
+}
+
+.grey100 {
+  color: var(--grey-100);
+}
+
+.grey0 {
+  color: var(--grey-0);
+}
+
+.white {
+  color: var(--white);
+}
