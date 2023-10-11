@@ -89,6 +89,11 @@
   border-radius: 8px;
 }
 
+.removeAllBtn:hover {
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary);
+}
+
 .removeBtnContainer {
   height: 75px;
 }
