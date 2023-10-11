@@ -44,8 +44,9 @@ export const HomePage = () => {
     toast.success("Item removido com sucesso.");
   };
 
-  //exclusão geral do carrinho
-  // renderizações condições e o estado para exibir ou não o carrinho
+  useEffect(() => {
+    localStorage.setItem("@CARTLIST", JSON.stringify(cartList));
+  }, [cartList]);
 
   return (
     <>
