@@ -10,7 +10,7 @@ export const CartItemCard = ({ product, removeItemFromCart }) => {
         <img src={img} alt={name} />
       </div>
       <div className={styles.productInfoContainer}>
-        <h3>{name}</h3>
+        <h3 className="title three">{name}</h3>
         <p className="body600 primary">
           {price.toLocaleString("pt-BR", {
             style: "currency",
@@ -19,7 +19,7 @@ export const CartItemCard = ({ product, removeItemFromCart }) => {
         </p>
       </div>
       <span
-        className="deleteBtn"
+        className={styles.deleteBtn}
         aria-label="delete"
         title="Remover item"
         onClick={() => removeItemFromCart(id)}
