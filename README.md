@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-O objetivo desta entrega é implementar um conjunto de funcionalidades e estilização a um projeto existente, colocando em prática os conhecimentos aprendidos até aqui. A proposta é acessar a lista de produtos de uma API, simular um carrinho de compras em React e aplicar estilização responsiva com base em um design do Figma.
+O objetivo deste projeto é implementar um conjunto de funcionalidades e estilização a um projeto existente, colocando em prática os conhecimentos aprendidos até aqui. A proposta é acessar a lista de produtos de uma API, simular um carrinho de compras em React e aplicar estilização responsiva com base em um design do Figma.
 
 ### Funcionalidades Principais
 
