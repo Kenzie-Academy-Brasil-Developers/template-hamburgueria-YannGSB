@@ -50,7 +50,7 @@ export const HomePage = () => {
 
   return (
     <>
-      <Header setIsOpen={setIsOpen} />
+      <Header setIsOpen={setIsOpen} cartList={cartList} />
       <main>
         <ProductList
           productList={productList}
